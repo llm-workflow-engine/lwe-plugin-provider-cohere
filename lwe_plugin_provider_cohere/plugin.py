@@ -5,6 +5,9 @@ from lwe.core.provider import Provider, PresetValue
 COHERE_DEFAULT_MODEL = "base-light"
 
 class ProviderCohere(Provider):
+    """
+    Access to Cohere models
+    """
 
     @property
     def model_property_name(self):
