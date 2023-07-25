@@ -35,7 +35,7 @@ git clone https://github.com/llm-workflow-engine/lwe-plugin-provider-cohere.git
 Install the development package:
 
 ```bash
-cd llm-workflow-engine
+cd lwe-plugin-provider-cohere
 pip install -e .
 ```
 
