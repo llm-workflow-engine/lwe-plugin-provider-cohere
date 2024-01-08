@@ -1,4 +1,4 @@
-from langchain.llms import Cohere
+from langchain_community.llms import Cohere
 
 from lwe.core.provider import Provider, PresetValue
 
