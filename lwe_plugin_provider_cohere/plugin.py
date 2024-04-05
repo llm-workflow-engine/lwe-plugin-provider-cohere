@@ -1,8 +1,9 @@
-from langchain_community.llms import Cohere
+from langchain_cohere.llms import Cohere
 
 from lwe.core.provider import Provider, PresetValue
 
 COHERE_DEFAULT_MODEL = "base-light"
+
 
 class ProviderCohere(Provider):
     """
