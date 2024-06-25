@@ -16,32 +16,34 @@ class ProviderCohere(Provider):
 
     @property
     def capabilities(self):
-        return {
-            'models': {
-                'base': {
-                    'max_tokens': 2048,
-                },
-                'base-light': {
-                    'max_tokens': 2048,
-                },
-                'command': {
-                    'max_tokens': 4096,
-                },
-                'command-light': {
-                    'max_tokens': 4096,
-                },
-                'summarize-medium': {
-                    'max_tokens': 2048,
-                },
-                'summarize-xlarge': {
-                    'max_tokens': 2048,
-                },
-            }
-        }
+        return {}
 
     @property
     def default_model(self):
         return COHERE_DEFAULT_MODEL
+
+    @property
+    def static_models(self):
+        return {
+            'base': {
+                'max_tokens': 2048,
+            },
+            'base-light': {
+                'max_tokens': 2048,
+            },
+            'command': {
+                'max_tokens': 4096,
+            },
+            'command-light': {
+                'max_tokens': 4096,
+            },
+            'summarize-medium': {
+                'max_tokens': 2048,
+            },
+            'summarize-xlarge': {
+                'max_tokens': 2048,
+            },
+        }
 
     def llm_factory(self):
         return Cohere
