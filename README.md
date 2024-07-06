@@ -1,3 +1,9 @@
+# Deprecated
+
+**THIS PROVIDER PLUGIN HAS BEEN DEPRECATED**
+
+Use https://github.com/llm-workflow-engine/lwe-plugin-provider-chat-cohere instead.
+
 # LLM Workflow Engine (LWE) Cohere Provider plugin
 
 Cohere Provider plugin for [LLM Workflow Engine](https://github.com/llm-workflow-engine/llm-workflow-engine)
